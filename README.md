@@ -3,6 +3,7 @@
 # Guide to setting up your dev environment
 </div>
 
+## Tools
 - [Git](https://git-scm.com/downloads)
 - [NPM/Node](https://nodejs.org/en/download)
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
