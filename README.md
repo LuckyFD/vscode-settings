@@ -3,6 +3,8 @@
 # Guide to setting up your dev environment
 </div>
 
+> **Note:** Keybindings for windows coming later
+
 ## Tools
 - Windows Terminal / iTerm
 - Chocolatey / HomeBrew
