@@ -5,6 +5,7 @@
 
 ## Tools
 - Windows Terminal / iTerm
+- Chocolatey / HomeBrew
 - [Git](https://git-scm.com/downloads)
 - [NPM/Node](https://nodejs.org/en/download)
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
