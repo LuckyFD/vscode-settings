@@ -15,4 +15,4 @@
   - Settings Sync (github login)
 - [SSMS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
 - SQL Server (incl. localhost)
-- .NET SDK (for VS Code to work with C#)
+- [.NET SDK](https://dotnet.microsoft.com/en-us/download) (for VS Code to work with C#)
