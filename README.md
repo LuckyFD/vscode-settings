@@ -14,3 +14,4 @@
 - [VS Code](https://code.visualstudio.com/Download)
   - Settings Sync (github login)
 - [SSMS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+- SQL Server (incl. localhost)
