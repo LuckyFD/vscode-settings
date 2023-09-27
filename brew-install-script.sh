@@ -9,60 +9,38 @@ echo "Installing brew..."
 echo "Installing brew cask..."
 brew tap homebrew/cask
 
-# Programming Languages
-echo "Installing programming languages..."
-brew install scala
-brew install --cask r
-brew install --cask oracle-jdk-javadoc
-
 # Dev Tools
 echo "Installing development tools..."
-brew install docker
 brew install git
-brew install basex
+brew install docker
 brew install --cask github
-brew install --cask hyper 
-brew install --cask kitematic
-brew install --cask neo4j
-brew install --cask rstudio
+brew install --cask iterm2
+brew install --cask dotnet-sdk
 brew install --cask visual-studio-code
-
-# Communication Apps
-echo "Installing communication apps..."
-brew install --cask discord
-brew install --cask keybase
-brew install --cask microsoft-teams
-brew install --cask microsoft-outlook
-brew install --cask protonmail-bridge
-brew install --cask skype
-brew install --cask slack
-brew install --cask zoom
 
 # Web Tools
 echo "Installing web tools..."
-brew install httpie
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 brew install node
-brew install nvm
 brew install --cask firefox
 brew install --cask google-chrome
-brew install --cask ngrok
-brew install --cask postman
+
+# Communication Apps
+echo "Installing communication apps..."
+brew install --cask slack
 
 # File Storage
 echo "Installing file storage tools..."
-brew install --cask dropbox
-brew install --cask onedrive
-
-# Writing Apps
-echo "Installing writing apps..."
-brew install pandoc
-brew install --cask deepl
-brew install --cask zotero
-brew install --cask papers
-brew install --cask microsoft-word
+brew install --cask google-drive
+-- brew install --cask onedrive
 
 # Other
 echo "Installing everything else..."
-brew install --cask anki
-brew install --cask amazon-music
-brew install --cask minecraft
+brew install --cask 1password
+brew install --cask alfred
+brew install --cask bartender
+brew install --cask bettertouchtool
+brew install --cask karabiner-elements
+brew install --cask linearmouse
+brew install --cask popclip
+-- brew install --cask logi-options-plus
