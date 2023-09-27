@@ -20,48 +20,18 @@
 
 ## Mac setup
 - Open Terminal and run `xcode-select --install`
+- Download and run the `brew-install-script.sh` by running `chmod +x ./brew-install-script.sh` then `./brew-install-script.sh` in the terminal
 - Install Magnet?
 - Firefox extensions
   - uBlock Origin
   - Dark Reader?
   - React Developer Tools
   - 1Password - Password Manager
- 
+
+### Mac install script
+[brew-install-script.sh](https://github.com/lukasbergman/dev-setup/blob/main/brew-install-script.sh)
+
 ### Todo
 - Vscode settings?
 - Karabiner elements setup?
 - BetterTouchTool setup?
-
-## Mac install script
-```
-# installing homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
-brew tap caskroom/cask
-brew install caskroom/cask/brew-cask
-
-# installing packages
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
-brew install git
-brew install --cask dotnet-sdk
-# ...
-
-# installing dev applications
-brew install --cask iterm2
-brew install --cask visual-studio-code
-# ...
-
-# installing other applications
-brew install --cask 1password
-brew install --cask alfred
-brew install --cask bartender
-brew install --cask bettertouchtool
-brew install --cask firefox
-brew install --cask karabiner-elements
-brew install --cask linearmouse
--- brew install --cask logi-options-plus
-brew install --cask popclip
-brew install --cask slack
-brew install --cask google-drive
--- brew install onedrive
-# ...
-```
