@@ -6,8 +6,9 @@
 echo "Installing brew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-echo "Installing brew cask..."
-brew tap homebrew/cask
+echo "Adding brew to path"
+    (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/lucky/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Dev Tools
 echo "Installing development tools..."
