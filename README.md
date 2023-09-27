@@ -33,6 +33,7 @@
 - BetterTouchTool setup?
 
 ## Mac install script
+```
 # installing homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
 brew tap caskroom/cask
@@ -63,3 +64,4 @@ brew install --cask slack
 brew install --cask google-drive
 -- brew install onedrive
 # ...
+```
