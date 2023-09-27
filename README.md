@@ -20,7 +20,12 @@
 
 ## Mac setup
 - Open Terminal and run `xcode-select --install`
-- Download and run the [brew-install-script.sh](https://github.com/lukasbergman/dev-setup/blob/main/brew-install-script.sh) by running `chmod +x ./brew-install-script.sh` then `./brew-install-script.sh` in the terminal
+- Download and run the [brew-install-script.sh](https://github.com/lukasbergman/dev-setup/blob/main/brew-install-script.sh) by running
+```
+chmod +x ./brew-install-script.sh
+
+./brew-install-script.sh
+```
 - Install Magnet?
 - Firefox extensions
   - uBlock Origin
