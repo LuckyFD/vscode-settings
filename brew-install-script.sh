@@ -16,7 +16,6 @@ brew install git
 brew install docker
 brew install --cask github
 brew install --cask iterm2
-brew install --cask dotnet-sdk
 brew install --cask visual-studio-code
 
 # Web Tools
@@ -30,18 +29,18 @@ brew install --cask google-chrome
 echo "-- Installing communication apps..."
 brew install --cask slack
 
-# File Storage
-echo "-- Installing file storage tools..."
-brew install --cask google-drive
-# brew install --cask onedrive
-
 # Other
 echo "-- Installing everything else..."
 brew install --cask 1password
 brew install --cask alfred
 brew install --cask bartender
 brew install --cask bettertouchtool
-brew install --cask karabiner-elements
 brew install --cask linearmouse
 brew install --cask popclip
 # brew install --cask logi-options-plus
+
+# Installs that require passwords
+echo "-- Installing apps that require passwords"
+brew install google-drive
+brew install --cask karabiner-elements
+brew install --cask dotnet-sdk
