@@ -37,7 +37,7 @@ chmod +x ./brew-install-script.sh
 - Open and log in to 1Password
 - Log in to browser to sync settings, extensions etc
 - Log in to github in vscode to sync everything
-- Copy and restory karabiner elements config file
+- Copy and restory [karabiner elements config file](https://github.com/lukasbergman/dev-setup/blob/main/karabiner.json)
 
 ### Todo
 - Add things3 brew install?
