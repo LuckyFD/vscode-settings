@@ -27,13 +27,17 @@ chmod +x ./brew-install-script.sh
 ./brew-install-script.sh
 ```
 - Install Magnet?
-- Firefox extensions
+- Web browser extensions
   - uBlock Origin
-  - Dark Reader?
   - React Developer Tools
   - 1Password - Password Manager
+  - Dark Reader?
+
+### Post app install
+- Open and log in to 1Password
+- Log in to browser to sync settings, extensions etc
+- Log in to github in vscode to sync everything
+- Copy and restory karabiner elements config file
 
 ### Todo
-- Vscode settings?
-- Karabiner elements setup?
-- BetterTouchTool setup?
+- Add things3 brew install?
