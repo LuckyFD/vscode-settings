@@ -18,6 +18,11 @@
 - [.NET SDK](https://dotnet.microsoft.com/en-us/download) (for VS Code to work with C#)
 
 
+## Windows trv setup
+- Öppna powershell som admin och kör `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://proget.trafikverket.local/endpoints/ChocolateyInstall/content/install.ps1'))`
+- 
+
+
 ## Mac setup
 - Open Terminal and run `xcode-select --install`
 - Download and run the [brew-install-script.sh](https://github.com/lukasbergman/dev-setup/blob/main/brew-install-script.sh) by running
