@@ -20,7 +20,7 @@
 
 ## Windows trv setup
 - Öppna powershell som admin och kör `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://proget.trafikverket.local/endpoints/ChocolateyInstall/content/install.ps1'))`
-- `@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://gist.githubusercontent.com/KristofferRisa/4cfd1ca3fec4e86e550c/raw/44c2d9c3fc02a5fdaa60cc098d0a559d4a33c1a1/dev-install.ps1'))"`
+- `@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://github.com/lukasbergman/dev-setup/blob/48106882e3894c0e816fd115bc4033cfaab91594/dev-install.ps1'))"`
 
 
 ## Mac setup
