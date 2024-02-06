@@ -64,6 +64,7 @@ ECHO Post install configuration
 refreshenv
 git config --global push.default current
 git config --global http.proxy http://proxyn.trafikverket.local:8080
+git config --global push.autoSetupRemote true
 npm config set registry "https://proget.trafikverket.local/npm/DefaultNpm/"
 npm config set registry -g "https://proget.trafikverket.local/npm/DefaultNpm/"
 choco feature disable -n allowGlobalConfirmation
