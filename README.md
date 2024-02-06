@@ -18,6 +18,8 @@
 - [.NET SDK](https://dotnet.microsoft.com/en-us/download) (for VS Code to work with C#)
 
 
+
+
 ## Windows trv setup
 ### Installationsskript
 - Öppna powershell som admin och kör nedan kommando
@@ -76,6 +78,7 @@ choco feature disable -n allowGlobalConfirmation
 New-PSDrive -Name "Z" -PSProvider "FileSystem" -Root "\\TRV37205\Backup" -Persist
 ```
 
+
 ### Justeringar efter installation
 Visual Studio keybindings:
 Tools -> Options -> Environment -> Keyboard
@@ -84,6 +87,12 @@ Tools -> Options -> Environment -> Keyboard
   - Bind `Edit.InsertNextMatchingCaret` to `CTRL+D`
 - F2
   - Bind `Refactor.Rename` to `F2`
+- CTRL+S
+  - Unbind `File.SaveSelectedItems` (`CTRL+SHIFT+S`)
+  - Bind `File.SaveAll` to `CTRL+S`
+
+
+
 
 ## Mac setup
 - Open Terminal and run `xcode-select --install`
