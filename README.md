@@ -90,6 +90,7 @@ Tools -> Options -> Environment -> Keyboard
 - CTRL+S
   - Unbind `File.SaveSelectedItems` (`CTRL+SHIFT+S`)
   - Bind `File.SaveAll` to `CTRL+S`
+- Ctrl+' (kommentera rad likt vscode)
 
 
 
