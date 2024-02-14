@@ -80,6 +80,9 @@ New-PSDrive -Name "Z" -PSProvider "FileSystem" -Root "\\TRV37205\Backup" -Persis
 
 
 ### Justeringar efter installation
+Visual Studio settings:
+Tools -> Options -> Text Editor -> Code Cleanup -> Run Code Cleanup profile on Save
+
 Visual Studio keybindings:
 Tools -> Options -> Environment -> Keyboard
 - CTRL+D
