@@ -90,7 +90,16 @@ Tools -> Options -> Environment -> Keyboard
 - CTRL+S
   - Unbind `File.SaveSelectedItems` (`CTRL+SHIFT+S`)
   - Bind `File.SaveAll` to `CTRL+S`
-- Ctrl+' (kommentera rad likt vscode)
+- CTRL+' (kommentera rad likt vscode)
+  - Unbind `Tools.GoToCommandLine` (`CTRL+'`)
+  - Bind `Edit.CommentSelection`
+  - Bind `Edit.UncommentSelection`
+- CTRL+P
+  - Unbind `File.Print`
+  - Bind `Edit.GoToAll`
+- CTRL+SHIFT+P
+  - Unbind `CodeReview.EditLocalFile`
+  - Bind `Window.QuickLaunch`
 
 
 
