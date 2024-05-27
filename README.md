@@ -10,76 +10,40 @@
 - Chocolatey / HomeBrew
 - [Git](https://git-scm.com/downloads)
 - [NPM/Node](https://nodejs.org/en/download)
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+- Dotnet IDE
+  - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+  - JetBrains Rider
 - [VS Code](https://code.visualstudio.com/Download)
   - Settings Sync (github login)
-- [SSMS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+- Database manager
+  - [SSMS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+  - JetBrains DataGrip
 - SQL Server (incl. localhost)
 - [.NET SDK](https://dotnet.microsoft.com/en-us/download) (for VS Code to work with C#)
 
+## Applications and 
+- Obsidian
+- Vimium extension / QuteBrowser (vim supported browser)
+- GlazeVM (Windows Tiling Manager, like i3wm.org)
+
+## Terminal setup and packages
+- Windows terminal
+- Zsh
+- Tmux (handle multiple terminal windows)
+- Zoxide (better cd navigation)
+- Fzf (better find/search of files)
+- Ranger (vim inspired file manager)?
+- Azure Devops CLI (create PR's and more from the terminal)
+- Gping (ping but with a graph)
 
 
 
 ## Windows trv setup
-### Installationsskript
-- Öppna powershell som admin och kör nedan kommando
-```
-Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
-```
-- Kör sedan följande kommando i powershell för att installera chocolatey (godkänt av ALM och möjliggör installation av program & bibliotek via powershell)
-
-```
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://proget.trafikverket.local/endpoints/ChocolateyInstall/content/install.ps1'))
-```
-- Kör följande kommando för automatiskt installation av diverse utvecklarverktyg och bibliotek
-```
-# Install script by Lukas Bergman
-# Created 2023-11-29
-# Updated 2024-01-10
-
-# Configuring chocolatey
-ECHO Configuring chocolatey
-choco feature enable -n allowGlobalConfirmation
-choco source add -n=trv -s="https://proget.trafikverket.local/nuget/Chocolatey/"
-
-# Apps
-ECHO Installing apps
-choco install notepadplusplus -y
-choco install mattermost-desktop -y
-
-# DEV
-ECHO Installing dev tools
-choco install git.portable -y
-choco install nvm.portable -y
-choco install nodejs -y
-choco install sql-server-2022 -y
-choco install ssms -y
-choco install dotnet-sdk -y
-choco install vscode -y
-
-# Choose below which Visual Studio you wish to install
-choco install visualstudio2022professional -y
-#choco install visualstudio2022enterprise -y
-
-# Post install
-ECHO Post install configuration
-refreshenv
-git config --global push.default current
-git config --global http.proxy http://proxyn.trafikverket.local:8080
-git config --global push.autoSetupRemote true
-npm config set registry "https://proget.trafikverket.local/npm/DefaultNpm/"
-npm config set registry -g "https://proget.trafikverket.local/npm/DefaultNpm/"
-choco feature disable -n allowGlobalConfirmation
-
-# Launch Visual Studio Installer
-& "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe"
-
-# Map explorer to network drive used for backups in UTV (requires reboot)
-New-PSDrive -Name "Z" -PSProvider "FileSystem" -Root "\\TRV37205\Backup" -Persist
-```
+### Installscript
+Run the dev install script from the intranet
 
 
-### Justeringar efter installation
+### Post install adjustments
 Visual Studio settings:
 Tools -> Options -> Text Editor -> Code Cleanup -> Run Code Cleanup profile on Save
 
