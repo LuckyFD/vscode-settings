@@ -21,7 +21,8 @@
 - SQL Server (incl. localhost)
 - [.NET SDK](https://dotnet.microsoft.com/en-us/download) (for VS Code to work with C#)
 
-## Applications and 
+## Applications
+- Microsoft PowerToys
 - Obsidian
 - Vimium extension / QuteBrowser (vim supported browser)
 - GlazeVM (Windows Tiling Manager, like i3wm.org)
