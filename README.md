@@ -45,10 +45,10 @@ Run the dev install script from the intranet
 
 
 ### Post install adjustments
-Visual Studio settings:
+**Visual Studio settings:**
 Tools -> Options -> Text Editor -> Code Cleanup -> Run Code Cleanup profile on Save
 
-Visual Studio keybindings:
+**Visual Studio keybindings:**
 Tools -> Options -> Environment -> Keyboard
 - CTRL+D
   - Unbind `Edit.Duplicate` (`CTRL+D`)
@@ -69,6 +69,11 @@ Tools -> Options -> Environment -> Keyboard
   - Unbind `CodeReview.EditLocalFile`
   - Bind `Window.QuickLaunch`
 
+**Windows Terminal keybinds**
+- Next tab = ctrl+pgdn
+- Previous tab = ctrl+pgup
+- New tab = ctrl+t
+- Close pane = ctrl+w
 
 
 
