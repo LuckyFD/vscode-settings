@@ -41,7 +41,8 @@
 
 ## Windows trv setup
 ### Installscript
-Run the dev install script from the intranet
+- Run the dev install script from the intranet
+- Then run this https://github.com/lukasbergman/dev-setup/blob/cbd7b3e7c235bf4aa4513f10d83e3daaecd65988/dev-install.ps1
 
 
 ### Post install adjustments
