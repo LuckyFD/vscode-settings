@@ -1,0 +1,15 @@
+https://blog.nikfp.com/how-to-install-and-set-up-neovim-on-windows
+
+- Install Windows Terminal & always run as admin
+- Install a nerd font https://www.nerdfonts.com/font-downloads and change to it in windows terminal
+- Install chocolatey or scoop
+- Install powershell core `choco install powershell-core`
+- Install neovim `choco install neovim`
+- Install git `choco install git`
+- Install ripgrep for telescope plugin to work `choco install ripgrep`
+- Install zig/mingw for treesitter to work `choco install zig` or `choco install mingw`
+- Create a `init.lua` file in `AppData\Local\nvim\`
+- Copy the following code to your `init.lua` file https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua
+
+
+
